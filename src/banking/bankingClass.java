@@ -1,7 +1,5 @@
 package banking;
 
-import java.util.Scanner;
-
 public class bankingClass {
     
     int accountNo = 10001;
@@ -11,11 +9,7 @@ public class bankingClass {
     
     public boolean verifyAccount(int acc, int pn){
         
-            if(acc == accountNo && pn == pin){
-                return true;
-            }else{
-                return false;
-            }
+        return acc == accountNo && pn == pin;
     }
     
     public int setAccount(){
