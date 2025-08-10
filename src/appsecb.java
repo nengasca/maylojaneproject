@@ -91,7 +91,7 @@ public class appsecb {
                                         if (loggedInAccount.verifyAccount(loginAccountNo, loginPin)) {
                                             System.out.println("Login Success!");
 
-                                            // Banking options
+                                           
                                             System.out.println("1. Deposit");
                                             System.out.println("2. Withdraw");
                                             System.out.println("3. Check Balance");
